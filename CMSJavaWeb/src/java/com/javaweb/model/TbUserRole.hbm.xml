@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 17, 2016 10:54:12 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.javaweb.model.TbUserRole" table="tb_user_role" catalog="dbweb" optimistic-lock="version">
+        <id name="iduserRole" type="java.lang.Integer">
+            <column name="iduser_role" />
+            <generator class="identity" />
+        </id>
+        <property name="userid" type="int">
+            <column name="userid" not-null="true" />
+        </property>
+        <property name="roleid" type="int">
+            <column name="roleid" not-null="true" />
+        </property>
+        <property name="note" type="string">
+            <column name="note" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

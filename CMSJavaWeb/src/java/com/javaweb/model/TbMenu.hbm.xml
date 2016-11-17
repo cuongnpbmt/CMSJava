@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 17, 2016 10:54:12 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.javaweb.model.TbMenu" table="tb_menu" catalog="dbweb" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="100" not-null="true" />
+        </property>
+        <property name="description" type="string">
+            <column name="description" />
+        </property>
+        <property name="parentid" type="int">
+            <column name="parentid" not-null="true" />
+        </property>
+        <property name="type" type="int">
+            <column name="type" not-null="true" />
+        </property>
+        <property name="link" type="string">
+            <column name="link" />
+        </property>
+        <property name="newscategoryid" type="java.lang.Integer">
+            <column name="newscategoryid" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>
