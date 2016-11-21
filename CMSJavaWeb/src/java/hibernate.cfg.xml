@@ -6,14 +6,5 @@
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dbweb?characterencoding=utf8</property>
     <property name="hibernate.connection.username">root</property>
-    <mapping resource="com/javaweb/model/TbUsers.hbm.xml"/>
-    <mapping resource="com/javaweb/model/TbNews.hbm.xml"/>
-    <mapping resource="com/javaweb/model/TbNewscategory.hbm.xml"/>
-    <mapping resource="com/javaweb/model/TbMedia.hbm.xml"/>
-    <mapping resource="com/javaweb/model/TbPages.hbm.xml"/>
-    <mapping resource="com/javaweb/model/TbRoles.hbm.xml"/>
-    <mapping resource="com/javaweb/model/TbUserRole.hbm.xml"/>
-    <mapping resource="com/javaweb/model/TbWebinfo.hbm.xml"/>
-    <mapping resource="com/javaweb/model/TbMenu.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
