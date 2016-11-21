@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 21, 2016 8:56:43 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.javaweb.model.TbNews" table="tb_news" catalog="dbweb" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="author" type="java.lang.Integer">
+            <column name="author" />
+        </property>
+        <property name="newsDate" type="date">
+            <column name="news_date" length="10" />
+        </property>
+        <property name="title" type="string">
+            <column name="title" length="120" not-null="true" />
+        </property>
+        <property name="content" type="string">
+            <column name="content" length="65535" not-null="true" />
+        </property>
+        <property name="excerpt" type="string">
+            <column name="excerpt" length="65535" not-null="true" />
+        </property>
+        <property name="images" type="string">
+            <column name="images" />
+        </property>
+        <property name="isbest" type="java.lang.Boolean">
+            <column name="isbest" />
+        </property>
+        <property name="isshow" type="java.lang.Boolean">
+            <column name="isshow" />
+        </property>
+        <property name="status" type="int">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="count" type="java.lang.Integer">
+            <column name="count" />
+        </property>
+        <property name="tags" type="string">
+            <column name="tags" />
+        </property>
+    </class>
+</hibernate-mapping>

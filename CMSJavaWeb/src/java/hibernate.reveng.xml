@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="dbweb"/>
+  <table-filter match-name="tb_pages"/>
+  <table-filter match-name="tb_product"/>
+  <table-filter match-name="tb_product_category"/>
+  <table-filter match-name="tb_htmlcontent"/>
+  <table-filter match-name="tb_news"/>
+  <table-filter match-name="tb_fk_product_category"/>
+  <table-filter match-name="tb_webinfo"/>
+  <table-filter match-name="tb_menu"/>
+  <table-filter match-name="tb_roles"/>
+  <table-filter match-name="tb_media"/>
+  <table-filter match-name="tb_news_category"/>
+  <table-filter match-name="tb_fk_news_category"/>
+  <table-filter match-name="tb_feedback"/>
+  <table-filter match-name="tb_fk_user_role"/>
+  <table-filter match-name="tb_users"/>
+</hibernate-reverse-engineering>
