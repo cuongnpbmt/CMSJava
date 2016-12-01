@@ -6,12 +6,16 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<div class="container banner text-center">
+    <div class="row">
+        <h1 class="text-uppercase">
+            Your Favorite One Page <br/>
+            Multi Purpose Template
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna <br />
+            vel scelerisque nisl consectetur et.
+        </p>
+        <button type="button" class="btn btn-danger">Danger</button>
+    </div>
+</div>

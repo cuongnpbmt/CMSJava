@@ -11,11 +11,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Trang quản trị</title>
         <%@include file="../includes/headtag.jsp" %>
+        <%@include file="includes/adminheadtag.jsp" %>
     </head>
     <body class="nav-md">
         <div class="container body">
             <div class="main_container">
-                
+
                 <%@include file="includes/left.jsp" %>
                 <!-- top navigation -->
                 <%@include file="includes/topadmin.jsp" %>
@@ -125,7 +126,10 @@
                 <!-- /page content -->
 
                 <!-- footer content -->
-                <%@include file="includes/footer.jsp" %>
+                <footer>
+                    <%@include file="includes/footer.jsp" %>    
+                </footer>
+
                 <!-- /footer content -->
             </div>
         </div>

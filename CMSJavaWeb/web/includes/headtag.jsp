@@ -8,8 +8,8 @@
 <!DOCTYPE html>
 
 <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<link href="${pageContext.request.contextPath}/css/custom.min.css" rel="stylesheet" type="text/css"/>
+
 <link href="${pageContext.request.contextPath}/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css"/>
-
+<link href="${pageContext.request.contextPath}/css/animate.min.css" rel="stylesheet" type="text/css"/>
 

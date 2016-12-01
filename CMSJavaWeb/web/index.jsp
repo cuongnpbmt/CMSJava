@@ -9,11 +9,26 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>VNUSLAB.COM</title>
         <%@include file="includes/headtag.jsp" %>
         <%@include file="includes/includejs.jsp" %>
     </head>
     <body>
         <%@include file="includes/header.jsp" %>
+        <header>            
+            <%@include file="includes/banner.jsp" %>
+        </header>
+
+        <section class="container baiviet">
+            <%@include file="includes/news.jsp" %>
+        </section>
+        <section class="container baiviet">
+            <%@include file="includes/news.jsp" %>
+        </section>
+        
+        <footer>
+            <%@include file="includes/footer.jsp" %>    
+        </footer>
+
     </body>
 </html>

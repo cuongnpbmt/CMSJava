@@ -29,6 +29,15 @@ public class TbUsers  implements java.io.Serializable {
         this.username = username;
         this.password = password;
     }
+
+    public TbUsers(String username, String password, String fullname, String email, String activationKey) {
+        this.username = username;
+        this.password = password;
+        this.fullname = fullname;
+        this.email = email;
+        this.activationKey = activationKey;
+    }
+    
     public TbUsers(String username, String password, String fullname, String email, String avatar, String activationKey, Integer status, Date datecreated, String note) {
        this.username = username;
        this.password = password;
